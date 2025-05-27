@@ -60,7 +60,7 @@ section li {
     >img {
 
         max-width: 30%;
-        border: 5px, solid, rgb(0, 139, 86);
+        padding: 5px;
         border-radius: 50%;
         margin-bottom: 5px;
     }
