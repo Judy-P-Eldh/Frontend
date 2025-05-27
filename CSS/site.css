@@ -1,12 +1,8 @@
-
-h2 {
-    color:darkred;
-    font-size: 2rem;
-    margin-top: 2rem;
-    font-weight: 800;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-h3 {
+h2 {
     margin-top: 2rem;
 }
 
@@ -15,29 +11,86 @@ h3 {
 }
 
 .subtitle {
-    background-color: lightgray;
+    border-radius: 15px;
+    background: rgb(0, 139, 86);
     margin-top: 2rem;
     padding: 2rem;
-    font-size:x-large;
+    font-size: x-large;
+    color: white;
 }
 
-.cake{
-    width: 100%;
+header {
+    background: linear-gradient(to top, rgb(0, 139, 86), rgb(128, 201, 144));
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    border-radius: 25px;
 }
 
-div.col-sm img {
-    width: 400px;
+.headerHeading {
+    padding: 2rem;
+    color: rgb(1, 8, 6);
+    text-align: center;
+    text-shadow: 0.2rem 0.2rem 0.5rem rgb(128, 201, 144);
+}
+
+section li {
+    line-height: 1.4;
+    max-width: 60%;
+}
+
+.cake {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.servering {
+    max-width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.servering li {
+    list-style-type: none;
+    display: inline;
+
+    >img {
+
+        max-width: 30%;
+        border: 5px, solid, rgb(0, 139, 86);
+        border-radius: 50%;
+        margin-bottom: 5px;
+    }
+}
+
+.serveringRubrik {
+    padding: 2rem;
+    text-align: center;
 }
 
 .footer {
-   text-align: center;
-   font-weight: 400;
-   background-color:darkgrey;
-   color: white;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+    font-weight: 400;
+    background-color: rgb(0, 139, 86);
+    color: white;
 }
 
 @media screen and (max-width: 600px) {
-   h2 {font-size: 25px;}
-   .subtitle {font-size: 20px;}
-   div.col-sm img {width: 250px; margin-bottom: 1rem;}
+    h2 {
+        font-size: 25px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    div.col-sm img {
+        width: 250px;
+        margin-bottom: 1rem;
+    }
 }
