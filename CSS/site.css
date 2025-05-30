@@ -77,7 +77,7 @@ section li {
     text-align: center;
     font-weight: 400;
     background-color: rgb(0, 139, 86);
-    color: white;
+    color: black;
 }
 
 @media screen and (max-width: 600px) {
