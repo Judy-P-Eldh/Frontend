@@ -46,15 +46,16 @@ section li {
     border-radius: 50%;
 }
 
-aside {
+.servering {
     max-width: 100%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
-.servering {
+.servering li{
     display: inline;
+    /* justify-content: center; */
 
     >img {
         max-width: 25%;
@@ -63,8 +64,17 @@ aside {
     }
 }
 
+/* figcaption {
+    text-align: center;
+} */
+
+hr {
+    stroke-width: 1rem;
+    color:  rgb(0, 139, 86);
+    margin-top: 3rem;
+}
 .serveringRubrik {
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
 }
 
