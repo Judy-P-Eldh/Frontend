@@ -46,23 +46,20 @@ section li {
     border-radius: 50%;
 }
 
-.servering {
+aside {
     max-width: 100%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
-.servering li {
-    list-style-type: none;
+.servering {
     display: inline;
 
     >img {
-
-        max-width: 30%;
-        padding: 5px;
+        max-width: 25%;
+        padding: 8px;
         border-radius: 50%;
-        margin-bottom: 5px;
     }
 }
 
